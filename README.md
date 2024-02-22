@@ -118,7 +118,7 @@ Let's get familiar with the code base so you can begin to understand what needs 
 
 - [ ] Run the tests with npm test after completing the getTime function to verify if it passes.
 
-- [ ] Complete the remaining functions in lib.ts up until the section named Stretch.
+- [ ] Complete the remaining functions in lib.ts up until the section named Stretch. Consider where you may be able to re-use functions e.g. your `getTime` and `getName` functions.
 
 ### 3. Completion and Verification
 

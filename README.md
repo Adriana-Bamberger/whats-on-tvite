@@ -105,7 +105,7 @@ Let's get familiar with the code base so you can begin to understand what needs 
 
 #### `getTime`
 
-- [ ] Let's starting with the `getTime` function. Consider the `show` parameter and its type, `Show`. What will the function need to return? Hover over the `Show` parameter type to see its structure.
+- [ ] Let's start with the `getTime` function. Consider the `show` parameter and its type, `Show`. What will the function need to return? Hover over the `Show` parameter type to see its structure.
 
 - [ ] Complete the current implementation so that it returns a time for any show. Provide a meaningful TypeScript return type for the function.
 

@@ -101,11 +101,11 @@ Let's get familiar with the code base so you can begin to understand what needs 
   import {Show} from './models/show.ts'
   ```
 
-### 2. Working on Functions
+### 2. Working on helper Functions
 
 #### `getTime`
 
-- [ ] Let's start with the `getTime` function. Consider the `show` parameter and its type, `Show`. What will the function need to return? Hover over the `Show` parameter type to see its structure.
+- [ ] Let's start with the `getTime` function. This function will be a helper function for later. Consider the `show` parameter and its type, `Show`. What will the function need to return? Hover over the `Show` parameter type to see its structure.
 
 - [ ] Complete the current implementation so that it returns a time for any show. Provide a meaningful TypeScript return type for the function.
 
@@ -118,11 +118,21 @@ Let's get familiar with the code base so you can begin to understand what needs 
 
 - [ ] Run the tests with npm test after completing the getTime function to verify if it passes.
 
-- [ ] Complete the remaining functions in lib.ts up until the section named Stretch. Consider where you may be able to re-use functions e.g. your `getTime` and `getName` functions.
+#### `getName`
 
-### 3. Completion and Verification
+- [ ] Repeat the same steps above for the `getName` function.
 
-- [ ] After completing each function, run the tests with npm test to confirm that they pass. Have a look at the website develop step by step as you complete the functions too!
+### 3. Working with data from the data file
+
+- [ ] `schedule.ts` is the data file for this project. It contains all of the data for the various TV shows, including their airing times, names and descriptions. In this case, `schedule.ts` contains an exported array Shows.
+
+- [ ] To load the data, we imported `schedule.ts` at the top of the `lib.ts` file and stored it in a variable called `schedule`. Use the schedule variable to complete the `getShowTime` function.
+
+- [ ] Run the tests to verify if it passes. Have a look at the website develop step by step as you complete the function too!
+
+- [ ] Complete remaining functions in lib.ts up until the section named Stretch.
+
+- [ ] Consider where you may be able to refactor your code re-use functions e.g. your `getTime` and `getName` functions.
 
 ### Hints
 

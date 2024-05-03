@@ -1,23 +1,31 @@
 // Import the schedule file.
+import schedule from './schedule.ts'
 
 // Import the show type from the models file.
 
+import { Show } from './models/show.ts'
+
 // Complete the getTime function.
-export function getTime(show: Show) {}
+export function getTime(show: Show) {
+  return show.time
+}
 
 // Complete the getName function.
-export function getName(show: Show) {}
+export function getName(show: Show) {
+  return show.name
+}
 
 // Complete the getShowTimes function, returning an array of show times.
-export function getShowTimes() {
-  return ['Placeholder 1', 'Placeholder 2']
+export function getShowTimes(): string[] {
+  //make an array, push things into it from each show using .map
+
+  return schedule.map((show) => show.time)
 }
 
 // Complete the getShowNames function, returning an array of show names.
 export function getShowNames() {
-  return ['Placeholder name 1', 'Placeholder name 2']
+  return schedule.map((show) => show.name)
 }
-
 // Complete the getShowByTimeslot function, returning a show based on the timeslot or undefined if not found.
 export function getShowByTimeslot(timeslot: string) {
   const placeholderShow = {

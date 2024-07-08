@@ -1,39 +1,15 @@
 # What's on TVite?
+Focusing on learning Vite getting more into Typescript and some more practise manipulating data.
 
-Learning objectives:
+TVite - "Your one stop shop for all your favourite coding shows" 
 
-1. Use [Vite](https://vitejs.dev/guide/)!
-1. Practise using [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
-1. Practise manipulating data
+Our chanllange was to compleete this website. 
+The starting repo we cloned off's website only useed placeholder schedule data.
+We needed to establish library functions to load the real data, display it and return the site to its former useful state!
 
-TVite - A one stop shop for all your favourite coding shows, but it is incomplete! The current website only uses placeholder schedule data. We need to establish library functions to load the real data, display it and return the site to its former useful state!
+Using NPM we're preasticing TTD and making sure our tests work as we go.
 
-![TVite](public/images/Example.png)
-
-## Setup
-
-### 0. Cloning and installation
-
-- [ ] After cloning this repo, install dependencies with `npm install`, and start the dev server with `npm run dev`
-  <details style="padding-left: 2em">
-    <summary>More about getting started</summary>
-
-  - To run the tests: `npm test`. 
-  </details>
-
----
-
-## Things to consider
-
-<details>
-  <summary>Important tips for completing the challenge</summary>
-
-1. This challenge uses Vite to load our TypeScript files. Typescript isn't natively supported in browsers, so viewing the HTML file directly in your browser won't work. Instead, use `npm run dev` which allows Vite to run a local development server.
-2. Functions in TypeScript should have a defined return type where possible. Give your functions an appropriate type by using `: Type`.
-3. The DOM interaction functions have been written for you in this challenge. You will write library functions in the `lib.ts` file to get the website working.
-4. When in doubt, check the [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/intro.html) or ask for help!
-</details>
-<br />
+--- below this is still the instructions from dev academy it's past bedtime though I need to get some zzz's ---
 
 ## Requirements
 
